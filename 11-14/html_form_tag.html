@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM ETİKETİ</title>
+</head>
+<body>
+<!--
+    <form action="ornek.py" method=""></form>
+burada form metodu çalıştırdığında actin atribiutuna bize yönlendirecek ve orada yazılan kodlar göre işlem yapatırır.
+ancak bu bir frontend eğtimi olduğu için bu işleri yapmayacağız.
+method ise verilerimizi get veya postla mi gönderecez yani gizli bir şekilde mi yoksa açık bir şekilde olacağını belieder.
+bu bir backend eğtimi olmadığı için bu konuların içine girmiycem sadece ek bilgi olarak size söylemek istedim :)  .
+-->
+    <form>
+        kullanıcı adı: <input type="text" placeholder="kullanıcı adınız">
+    </form>
+
+    <form>
+        <br>
+        parola: <input type="password" placeholder="şifreniz">
+    </form>
+
+    <form>
+        <br>
+        email: <input type="email" placeholder="email">
+    </form>
+
+    <form>
+        <br>
+        <span>medeni hali:</span>
+        evli<input type="checkbox" checked="">
+        bekar<input type="checkbox">
+    </form>
+
+    <form>
+        <br>
+        <span>eğtim durumu: </span>
+        ilk okul<input type="radio" name="edu_radio">
+        orta okul<input type="radio" name="edu_radio">
+        lise<input type="radio" name="edu_radio">
+        lisans<input type="radio" name="edu_radio">
+        yüksek lisans<input type="radio" name="edu_radio">
+        doktora<input type="radio" name="edu_radio">
+    </form>
+<!--burada name atribiute'unu kullanma sebebimiz aynı anda bir kaç seçeneğin seçilebilir olmasıdır aynı özellik checkbox'ta da geçerlidir
+yani kişi hem evli hemde bekar olamaz. bunu gibi durumlarda name atribiute'nu kullanıyoruz. checked ise biz özelliğin seçili
+olarak gelmesini istediğimizde kullanırız.
+-->
+    <form>
+        <br>
+        resim yükleyiniz:  <input type="file" placeholder="jpg/png">
+    </form>
+
+    <form>
+        <br>
+        arama çubuğu: <input type="search">
+    </form>
+
+    <form>
+        <br>
+        gönder butonu ---> <input type="submit" value="Gönder">
+    </form>
+
+    <form>
+        <br>
+        doğum tarihi: <input type="date">
+    </form>
+
+    <form>
+        <br>
+        telefon numarası: <input type="tel">
+    </form>
+
+    <form>
+        <br>
+        ses ayarı: <input type="range">
+    </form>
+
+    <form>
+        <br>
+        bağlantı: <input type="url">
+    </form>
+
+    <form>
+        <br>
+        ay ve yıl = <input type="month">
+    </form>
+
+    <form>
+        <br>
+        sıfırla ----> <input type="reset">
+        <br><br>
+        yeniden yükle ----> <input type="reset" value="yeniden yükle">
+    </form>
+
+    <form>
+        <br>
+        <input type="text" placeholder="sorun başlığı">
+        <br>
+        <textarea name="problem" id="user_problem" cols="60" rows="10" placeholder="metin giriniz"></textarea>
+    </form>
+
+    <form>
+        <br>
+        <span>cinsiyet: </span>
+        <select>
+            <option value="erkek">ERKEK</option>
+            <option value="kadın">KADIN</option>
+        </select>
+    </form>
+
+</body>
+</html>
+
+
+<!--
+input etiketi kullanıcıdan bilgi almak istediğimizde kullanacağımız bir etikettir. birsürü farklı türü vardır yukarıdaki
+kodları denediğinizde her type'in farklı özliği vardır mesela pasword da girilen bilgi nokta nokta şeklinde dir. yukarı-
+daki html kodunu deneyerek bunları test edebilirsiniz. Burad beyan etmek istediğim başka bir husus ise eğer biz bu butunla
+-->
