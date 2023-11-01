@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML DE TABLO YAPIMI</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>last name</th>
+        <th>age</th>
+        <th>job</th>
+    </tr>
+
+    <tr>
+        <td>Jack</td>
+        <td>Mc Travis</td>
+        <td>31</td>
+        <td>Engineer</td>
+    </tr>
+
+    <tr>
+        <td>Murat</td>
+        <td>Yılmaz</td>
+        <td>28</td>
+        <td>lowyer</td>
+    </tr>
+
+    <tr>
+        <td>Dejan</td>
+        <td>Takowski</td>
+        <td>19</td>
+        <td>Student</td>
+    </tr>
+
+    <tr>
+        <td>Li Chan</td>
+        <td>Sung</td>
+        <td>42</td>
+        <td>Teacher</td>
+    </tr>
+</table>
+
+<br>
+<!--
+tabloda satır oluşturmak için tr(table row) etiketini kullanıyoruz. Açtığımız satır ise klonlara ayırmak için
+td(table data) etiketini kullanıyoruz. table etiketimizin tablo için kenarları oluşturması için çerçeve veya kenarlık
+anlamına gelen border="" atribiute'unu kullanıyoruz. Tabi burada th(table header) diye bir etiketimiz mevcüt, bu etiketin
+işlevi ise başlık satırını daha belirginleştiriyor, tasarımcının isteğiğne bağlı olarak bu etiketi kullanabilir.
+
+bazen satırları veya sütünları birleştirmeye gerek duya biliriz bunun için rowspan(satır birleştirir) ve colspan (sütün
+birleştirir) atribiute larından yaralanabiliriz. Aşağıda ise yapılan daha karmaşık bir örnek var. isterseniz inceleye-
+bilirsiniz :)
+
+ancak işi daha hızlı ve temiz bitirmek adına bir word veya excel dosyasında tablonuzu çizin daha sonra çizdiğiniz tabloyu
+Ctrl + C ile kopyalıyıp https://divtable.com/generator/ adresine gidiniz. tabloyu oraya kopayalayınız, daha sonra ise
+size tablonuz için kullanabileceğiniz bir html kodu veriyor, böylece daha kolay ve daha temiz bir tabloya sahip olabilirsiniz.
+olabiliyorsunuz. İsterseniz extra olarakta size verilen kod üzerinde oynama yapabilirsiniz.
+-->
+
+<table border="3">
+    <tbody>
+    <tr>
+        <td style="width: 172.094px;">
+            <p>&nbsp;</p>
+        </td>
+        <td style="width: 217.198px;">
+            <p><strong>GAME DEVELOPER</strong></p>
+        </td>
+        <td style="width: 225.562px;" colspan="2">
+            <p><strong>WEB DEVELOPER</strong></p>
+        </td>
+        <td style="width: 268.802px;" colspan="3">
+            <p><strong>MOBILE APP DEVELOPER</strong></p>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 172.094px;" rowspan="3">
+            <p><strong>PROGRAMMING LANGUGES</strong></p>
+        </td>
+        <td style="width: 217.198px;" rowspan="3">
+            <p>C++</p>
+            <p>C#</p>
+            <p>Java</p>
+            <p>Python</p>
+        </td>
+        <td style="width: 84.4479px;" rowspan="2">
+            <p>BACKEND</p>
+        </td>
+        <td style="width: 141.115px;" rowspan="2">
+            <p>Java</p>
+            <p>Python</p>
+            <p>php</p>
+            <p>C#</p>
+        </td>
+        <td style="width: 105.219px;">
+            <p>Android</p>
+        </td>
+        <td style="width: 65.0312px;">
+            <p>IOS</p>
+        </td>
+        <td style="width: 98.5521px;">
+            <p>Cross-platform</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 105.219px;" rowspan="2">
+            <p>Java</p>
+            <p>Kotlin</p>
+        </td>
+        <td style="width: 78.0312px;" rowspan="2">
+            <p>Swift</p>
+            <p>Objective C</p>
+        </td>
+        <td style="width: 98.5521px;" rowspan="2">
+            <p>Javascript</p>
+            <p>Typescript</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 84.4479px;">
+            <p>FRONTEND</p>
+        </td>
+        <td style="width: 141.115px;">
+            <p>Html</p>
+            <p>Css</p>
+            <p>Javacript</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 172.094px;" rowspan="3">
+            <p><strong>FRAMWORKS</strong></p>
+            <p>&nbsp;</p>
+        </td>
+        <td style="width: 217.198px;" rowspan="3">
+            <p>Unity</p>
+            <p>Unreal Engine</p>
+            <p>Cocos 2d-x</p>
+            <p>Pygame</p>
+        </td>
+        <td style="width: 84.4479px;" rowspan="2">
+            <p>BACKEND</p>
+        </td>
+        <td style="width: 141.115px;" rowspan="2">
+            <p>Flask</p>
+            <p>Node.js</p>
+            <p>Spring boot</p>
+            <p>Django</p>
+        </td>
+        <td style="width: 105.219px;">
+            <p>Android</p>
+        </td>
+        <td style="width: 65.0312px;">
+            <p>IOS</p>
+        </td>
+        <td style="width: 98.5521px;">
+            <p>Cross-platform</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 105.219px;" rowspan="2">
+            <p>Android Studio</p>
+            <p>Android JetPack</p>
+        </td>
+        <td style="width: 65.0312px;" rowspan="2">
+            <p>x code</p>
+            <p>swiftUI</p>
+        </td>
+        <td style="width: 98.5521px;" rowspan="2">
+            <p>Fluter</p>
+            <p>Xamarin</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 84.4479px;">
+            <p>FRONTEND</p>
+        </td>
+        <td style="width: 141.115px;">
+            <p>React</p>
+            <p>Angular</p>
+            <p>Bootstrap</p>
+            <p>Vue.js</p>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
+
+

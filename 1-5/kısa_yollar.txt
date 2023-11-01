@@ -1,0 +1,26 @@
+
+1.Dosyada Arama Yapma:
+Ctrl + F
+
+2.Satırı Silme veya Kesme:
+Ctrl + X
+
+3.Satırı Kopyalama:
+Ctrl + C
+
+4.Satırı Yapıştırma:
+Ctrl + V
+
+5.Satırın Başına veya Sonuna Gitme:
+Başa Gitme: Home
+Sona Gitme: End
+
+6.Satırı Yukarı veya Aşağı Taşıma:
+Yukarı Taşıma:  Ctrl + Shift + ↑
+Aşağı Taşıma:   Ctrl + Shift + ↓,
+
+7.Satırı Düzgünleştirme (Reformat Code):
+Ctrl + Alt + L
+
+8.Öz Nitelik(Atribiutes) getirme:
+Ctrl + Space
