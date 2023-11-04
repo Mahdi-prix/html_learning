@@ -1,5 +1,5 @@
 # html_learning
-You can use my notes and get some idea about html
+You can use my notes and get some idea about html (Türkçe)
 
 Burada benim html hakkında aldığım notlar ve öğrendiğim şeylerin bilgileri ve dosyalardaki işlemlerin nasıl yapıldığına daire notlar mevcuttur.
 sizin burada yapmanız gereken tek şey kullandığınız tarayci versiyonuna uygun bir web driver indirmek olacaktır. Windows kullanan arkadaşlar için
